@@ -33,6 +33,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:microbit-socket
 LIBS:microbit
+LIBS:symbol
 LIBS:microbit-right-angle-cache
 EELAYER 25 0
 EELAYER END
@@ -364,4 +365,26 @@ Wire Wire Line
 	5750 3000 5950 3000
 Wire Wire Line
 	5750 3300 5950 3300
+$Comp
+L symbol Z1
+U 1 1 5A1EB384
+P 7900 2650
+F 0 "Z1" H 7900 2650 60  0000 C CNN
+F 1 "ncss" H 7900 2450 60  0000 C CNN
+F 2 "logos:ncss" H 7900 2650 60  0001 C CNN
+F 3 "" H 7900 2650 60  0001 C CNN
+	1    7900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbol Z2
+U 1 1 5A1EB3BA
+P 7900 3150
+F 0 "Z2" H 7900 3150 60  0000 C CNN
+F 1 "oshw" H 7900 2950 60  0000 C CNN
+F 2 "logos:OSHW-Logo2_7.3x6mm_Copper" H 7900 3150 60  0001 C CNN
+F 3 "" H 7900 3150 60  0001 C CNN
+	1    7900 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
