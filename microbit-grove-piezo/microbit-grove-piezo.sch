@@ -33,6 +33,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:microbit-socket
 LIBS:seeed-opl-connector
+LIBS:symbol
 LIBS:microbit-grove-piezo-cache
 EELAYER 25 0
 EELAYER END
@@ -354,4 +355,26 @@ NoConn ~ 8250 4350
 NoConn ~ 8250 4950
 NoConn ~ 8250 5150
 NoConn ~ 8250 5750
+$Comp
+L symbol Z1
+U 1 1 5A1EB7CF
+P 2200 3350
+F 0 "Z1" H 2200 3350 60  0000 C CNN
+F 1 "ncss" H 2200 3150 60  0000 C CNN
+F 2 "logos:ncss" H 2200 3350 60  0001 C CNN
+F 3 "" H 2200 3350 60  0001 C CNN
+	1    2200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbol Z2
+U 1 1 5A1EB880
+P 2200 3850
+F 0 "Z2" H 2200 3850 60  0000 C CNN
+F 1 "oshw" H 2200 3650 60  0000 C CNN
+F 2 "logos:OSHW-Logo2_7.3x6mm_Copper" H 2200 3850 60  0001 C CNN
+F 3 "" H 2200 3850 60  0001 C CNN
+	1    2200 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

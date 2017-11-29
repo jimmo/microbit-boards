@@ -2,4 +2,5 @@
   (lib (name microbit-socket)(type KiCad)(uri "$(KIPRJMOD)/../lib/microbit-socket.pretty")(options "")(descr ""))
   (lib (name grove)(type KiCad)(uri "$(KIPRJMOD)/../lib/grove.pretty")(options "")(descr ""))
   (lib (name piezo)(type KiCad)(uri "$(KIPRJMOD)/../lib/piezo.pretty")(options "")(descr ""))
+  (lib (name logos)(type KiCad)(uri "$(KIPRJMOD)/../lib/logos.pretty")(options "")(descr ""))
 )
