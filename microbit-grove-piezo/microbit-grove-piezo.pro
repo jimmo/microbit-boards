@@ -1,4 +1,4 @@
-update=Thu 30 Nov 2017 00:34:54 AEDT
+update=Thu 30 Nov 2017 10:55:35 AEDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,13 @@ LibName32=valves
 LibName33=../lib/microbit-socket
 LibName34=../lib/seeed-opl-connector
 LibName35=/home/jimmo/src/github.com/jimmo/microbit-boards/lib/symbol
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
