@@ -1,4 +1,5 @@
 (module smd_socket (layer F.Cu) (tedit 5A1D4357)
+  (solder_mask_margin 0.01)
   (fp_text reference Ref** (at -12.7 0) (layer F.SilkS)
     (effects (font (thickness 0.15)))
   )

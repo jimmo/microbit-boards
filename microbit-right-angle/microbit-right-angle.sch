@@ -301,22 +301,10 @@ Text GLabel 4350 4100 0    60   Input ~ 0
 MB_12
 Text GLabel 4350 4000 0    60   Input ~ 0
 MB_11
-Text GLabel 4350 3900 0    60   Input ~ 0
-MB_10
-Text GLabel 4350 3800 0    60   Input ~ 0
-MB_9
 Text GLabel 4350 3700 0    60   Input ~ 0
 MB_8
-Text GLabel 4350 3600 0    60   Input ~ 0
-MB_7
-Text GLabel 4350 3500 0    60   Input ~ 0
-MB_6
 Text GLabel 4350 3400 0    60   Input ~ 0
 MB_5
-Text GLabel 4350 3300 0    60   Input ~ 0
-MB_4
-Text GLabel 4350 3200 0    60   Input ~ 0
-MB_3
 Text GLabel 4350 3100 0    60   Input ~ 0
 MB_2
 Text GLabel 4350 3000 0    60   Input ~ 0
@@ -387,4 +375,10 @@ F 3 "" H 7900 3150 60  0001 C CNN
 	1    7900 3150
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4350 3800
+NoConn ~ 4350 3900
+NoConn ~ 4350 3600
+NoConn ~ 4350 3500
+NoConn ~ 4350 3300
+NoConn ~ 4350 3200
 $EndSCHEMATC
