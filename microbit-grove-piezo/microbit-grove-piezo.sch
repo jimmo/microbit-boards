@@ -100,34 +100,12 @@ Text GLabel 5950 3500 2    60   Input ~ 0
 MB_20
 Text GLabel 5950 3600 2    60   Input ~ 0
 MB_19
-Text GLabel 5950 3700 2    60   Input ~ 0
-MB_16
 Text GLabel 5950 3800 2    60   Input ~ 0
 MB_15
 Text GLabel 5950 3900 2    60   Input ~ 0
 MB_14
 Text GLabel 5950 4000 2    60   Input ~ 0
 MB_13
-Text GLabel 5950 4100 2    60   Input ~ 0
-MB_12
-Text GLabel 5950 4200 2    60   Input ~ 0
-MB_11
-Text GLabel 5950 4300 2    60   Input ~ 0
-MB_10
-Text GLabel 5950 4400 2    60   Input ~ 0
-MB_9
-Text GLabel 5950 4500 2    60   Input ~ 0
-MB_8
-Text GLabel 5950 4600 2    60   Input ~ 0
-MB_7
-Text GLabel 5950 4700 2    60   Input ~ 0
-MB_6
-Text GLabel 5950 4800 2    60   Input ~ 0
-MB_5
-Text GLabel 5950 4900 2    60   Input ~ 0
-MB_4
-Text GLabel 5950 5000 2    60   Input ~ 0
-MB_3
 Text GLabel 5950 5100 2    60   Input ~ 0
 MB_2
 Text GLabel 5950 5200 2    60   Input ~ 0
@@ -139,33 +117,11 @@ Wire Wire Line
 Wire Wire Line
 	5950 3600 5750 3600
 Wire Wire Line
-	5750 3700 5950 3700
-Wire Wire Line
 	5950 3800 5750 3800
 Wire Wire Line
 	5750 3900 5950 3900
 Wire Wire Line
 	5950 4000 5750 4000
-Wire Wire Line
-	5750 4100 5950 4100
-Wire Wire Line
-	5950 4200 5750 4200
-Wire Wire Line
-	5750 4300 5950 4300
-Wire Wire Line
-	5950 4400 5750 4400
-Wire Wire Line
-	5750 4500 5950 4500
-Wire Wire Line
-	5950 4600 5750 4600
-Wire Wire Line
-	5750 4700 5950 4700
-Wire Wire Line
-	5950 4800 5750 4800
-Wire Wire Line
-	5750 4900 5950 4900
-Wire Wire Line
-	5950 5000 5750 5000
 Wire Wire Line
 	5750 5100 5950 5100
 Wire Wire Line
@@ -180,34 +136,12 @@ Text GLabel 4350 4700 0    60   Input ~ 0
 MB_20
 Text GLabel 4350 4600 0    60   Input ~ 0
 MB_19
-Text GLabel 4350 4500 0    60   Input ~ 0
-MB_16
 Text GLabel 4350 4400 0    60   Input ~ 0
 MB_15
 Text GLabel 4350 4300 0    60   Input ~ 0
 MB_14
 Text GLabel 4350 4200 0    60   Input ~ 0
 MB_13
-Text GLabel 4350 4100 0    60   Input ~ 0
-MB_12
-Text GLabel 4350 4000 0    60   Input ~ 0
-MB_11
-Text GLabel 4350 3900 0    60   Input ~ 0
-MB_10
-Text GLabel 4350 3800 0    60   Input ~ 0
-MB_9
-Text GLabel 4350 3700 0    60   Input ~ 0
-MB_8
-Text GLabel 4350 3600 0    60   Input ~ 0
-MB_7
-Text GLabel 4350 3500 0    60   Input ~ 0
-MB_6
-Text GLabel 4350 3400 0    60   Input ~ 0
-MB_5
-Text GLabel 4350 3300 0    60   Input ~ 0
-MB_4
-Text GLabel 4350 3200 0    60   Input ~ 0
-MB_3
 Text GLabel 4350 3100 0    60   Input ~ 0
 MB_2
 Text GLabel 4350 3000 0    60   Input ~ 0
@@ -219,33 +153,11 @@ Wire Wire Line
 Wire Wire Line
 	4350 4600 4550 4600
 Wire Wire Line
-	4550 4500 4350 4500
-Wire Wire Line
 	4350 4400 4550 4400
 Wire Wire Line
 	4550 4300 4350 4300
 Wire Wire Line
 	4350 4200 4550 4200
-Wire Wire Line
-	4550 4100 4350 4100
-Wire Wire Line
-	4350 4000 4550 4000
-Wire Wire Line
-	4550 3900 4350 3900
-Wire Wire Line
-	4350 3800 4550 3800
-Wire Wire Line
-	4550 3700 4350 3700
-Wire Wire Line
-	4350 3600 4550 3600
-Wire Wire Line
-	4550 3500 4350 3500
-Wire Wire Line
-	4350 3400 4550 3400
-Wire Wire Line
-	4550 3300 4350 3300
-Wire Wire Line
-	4350 3200 4550 3200
 Wire Wire Line
 	4550 3100 4350 3100
 Wire Wire Line
@@ -377,4 +289,26 @@ F 3 "" H 2200 3850 60  0001 C CNN
 	1    2200 3850
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5750 3700
+NoConn ~ 5750 4100
+NoConn ~ 5750 4200
+NoConn ~ 5750 4300
+NoConn ~ 5750 4400
+NoConn ~ 5750 4500
+NoConn ~ 5750 4600
+NoConn ~ 5750 4700
+NoConn ~ 5750 4800
+NoConn ~ 5750 4900
+NoConn ~ 4550 3300
+NoConn ~ 4550 3400
+NoConn ~ 4550 3500
+NoConn ~ 4550 3600
+NoConn ~ 4550 3700
+NoConn ~ 4550 3800
+NoConn ~ 4550 3900
+NoConn ~ 4550 4000
+NoConn ~ 4550 4100
+NoConn ~ 4550 4500
+NoConn ~ 5750 5000
+NoConn ~ 4550 3200
 $EndSCHEMATC
