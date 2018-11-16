@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name grove)(type KiCad)(uri /home/jimmo/src/github.com/jimmo/microbit-boards/lib/grove.pretty)(options "")(descr ""))
+  (lib (name logos)(type KiCad)(uri /home/jimmo/src/github.com/jimmo/microbit-boards/lib/logos.pretty)(options "")(descr ""))
+  (lib (name seeed-opl)(type KiCad)(uri /home/jimmo/src/github.com/jimmo/microbit-boards/lib/seeed-opl.pretty)(options "")(descr ""))
+)

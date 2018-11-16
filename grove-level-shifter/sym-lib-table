@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name symbol)(type Legacy)(uri /home/jimmo/src/github.com/jimmo/microbit-boards/lib/symbol.lib)(options "")(descr ""))
+  (lib (name seeed-opl-connector)(type Legacy)(uri /home/jimmo/src/github.com/jimmo/microbit-boards/lib/seeed-opl-connector.lib)(options "")(descr ""))
+  (lib (name seeed-opl-ic)(type Legacy)(uri /home/jimmo/src/github.com/jimmo/microbit-boards/lib/seeed-opl-ic.lib)(options "")(descr ""))
+)
