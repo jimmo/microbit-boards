@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jimmo/src/github.com/jimmo/microbit-boards/grove-level-shifter/grove-level-shifter.sch</source>
+    <date>Sat 17 Nov 2018 00:48:21 AEDT</date>
+    <tool>Eeschema 5.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>grove-level-shifter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J8">
+      <value>USB</value>
+      <footprint>seeed-opl:MICRO-USB5+6P-SMD-0.65-B</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="seeed-opl-connector" part="MICRO-USB-SMD-B-_10118193-0001LF_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEEA18B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TXB0108PW</value>
+      <footprint>seeed-opl:TSSOP20-0.65-6.5X4.4MM</footprint>
+      <fields>
+        <field name="MPN">TXB0108PW</field>
+        <field name="SKU">310050024</field>
+      </fields>
+      <libsource lib="seeed-opl-ic" part="LOGIC-TXB0108PW_TSSOP20_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEEB257</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>In 1</value>
+      <footprint>grove:HW4-SMD-2.0-90D</footprint>
+      <fields>
+        <field name="SKU">320110032</field>
+      </fields>
+      <libsource lib="seeed-opl-connector" part="GROVE-CONNECTOR-SMD-90D_4+2P-2.0_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEEA62B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEEBA29</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEEBBED</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>In 2</value>
+      <footprint>grove:HW4-SMD-2.0-90D</footprint>
+      <fields>
+        <field name="SKU">320110032</field>
+      </fields>
+      <libsource lib="seeed-opl-connector" part="GROVE-CONNECTOR-SMD-90D_4+2P-2.0_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEEC6F4</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Out 1</value>
+      <footprint>grove:HW4-SMD-2.0-90D</footprint>
+      <fields>
+        <field name="SKU">320110032</field>
+      </fields>
+      <libsource lib="seeed-opl-connector" part="GROVE-CONNECTOR-SMD-90D_4+2P-2.0_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEEC9A6</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Out 2</value>
+      <footprint>grove:HW4-SMD-2.0-90D</footprint>
+      <fields>
+        <field name="SKU">320110032</field>
+      </fields>
+      <libsource lib="seeed-opl-connector" part="GROVE-CONNECTOR-SMD-90D_4+2P-2.0_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEECEC1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEED4E8</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>In</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEF016E</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Out</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEF2EA9</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Power</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEFED75</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>External Power</value>
+      <footprint>seeed-opl:H2-3.5-7.0X7.0MM</footprint>
+      <libsource lib="seeed-opl-connector" part="SCREW-TERMINAL-GREEN_2P-3.5_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF2CF0B</tstamp>
+    </comp>
+    <comp ref="Z1">
+      <value>symbol</value>
+      <footprint>logos:OSHW-Logo2_7.3x6mm_Copper</footprint>
+      <libsource lib="symbol" part="symbol" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF3B302</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="seeed-opl-connector" part="GROVE-CONNECTOR-SMD-90D_4+2P-2.0_">
+      <footprints>
+        <fp>*HW4-SMD-2.0-90D*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GROVE-CONNECTOR-SMD-90D_4+2P-2.0_</field>
+        <field name="Footprint">Seeed-Connector_HW4-SMD-2.0-90D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="power_in"/>
+        <pin num="4" name="4" type="power_in"/>
+        <pin num="SS1" name="SS1" type="BiDi"/>
+        <pin num="SS2" name="SS2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="seeed-opl-connector" part="MICRO-USB-SMD-B-_10118193-0001LF_">
+      <footprints>
+        <fp>*MICRO-USB5+6P-SMD-0.65-B*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">MICRO-USB-SMD-B-_10118193-0001LF_</field>
+        <field name="Footprint">Seeed-Connector_MICRO-USB5+6P-SMD-0.65-B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="DM" type="BiDi"/>
+        <pin num="3" name="DP" type="BiDi"/>
+        <pin num="4" name="ID" type="BiDi"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="S1" name="GND" type="passive"/>
+        <pin num="S2" name="GND" type="passive"/>
+        <pin num="S3" name="GND" type="passive"/>
+        <pin num="S4" name="GND" type="passive"/>
+        <pin num="S5" name="GND" type="passive"/>
+        <pin num="S6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="seeed-opl-connector" part="SCREW-TERMINAL-GREEN_2P-3.5_">
+      <footprints>
+        <fp>*H2-3.5-7.0X7.0MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SCREW-TERMINAL-GREEN_2P-3.5_</field>
+        <field name="Footprint">Seeed-Connector_H2-3.5-7.0X7.0MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="seeed-opl-ic" part="LOGIC-TXB0108PW_TSSOP20_">
+      <footprints>
+        <fp>*TSSOP20-0.65-6.5X4.4MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LOGIC-TXB0108PW_TSSOP20_</field>
+        <field name="MPN">TXB0108PW</field>
+        <field name="SKU">310050024</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="BiDi"/>
+        <pin num="2" name="VCCA" type="power_in"/>
+        <pin num="3" name="A2" type="BiDi"/>
+        <pin num="4" name="A3" type="BiDi"/>
+        <pin num="5" name="A4" type="BiDi"/>
+        <pin num="6" name="A5" type="BiDi"/>
+        <pin num="7" name="A6" type="BiDi"/>
+        <pin num="8" name="A7" type="BiDi"/>
+        <pin num="9" name="A8" type="BiDi"/>
+        <pin num="10" name="OE" type="BiDi"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="B8" type="BiDi"/>
+        <pin num="13" name="B7" type="BiDi"/>
+        <pin num="14" name="B6" type="BiDi"/>
+        <pin num="15" name="B5" type="BiDi"/>
+        <pin num="16" name="B4" type="BiDi"/>
+        <pin num="17" name="B3" type="BiDi"/>
+        <pin num="18" name="B2" type="BiDi"/>
+        <pin num="19" name="VCCB" type="power_in"/>
+        <pin num="20" name="B1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="symbol" part="symbol">
+      <fields>
+        <field name="Reference">Z</field>
+        <field name="Value">symbol</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="seeed-opl-connector">
+      <uri>/home/jimmo/src/github.com/jimmo/microbit-boards/lib/seeed-opl-connector.lib</uri>
+    </library>
+    <library logical="seeed-opl-ic">
+      <uri>/home/jimmo/src/github.com/jimmo/microbit-boards/lib/seeed-opl-ic.lib</uri>
+    </library>
+    <library logical="symbol">
+      <uri>/home/jimmo/src/github.com/jimmo/microbit-boards/lib/symbol.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J7-Pad1)">
+      <node ref="J7" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="2" name="IN_1_CLK">
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="3" name="IN_2_CLK">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="4" name="IN_2_DATA">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="5" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="6" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="7" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="8" name="Net-(J6-Pad4)">
+      <node ref="J6" pin="4"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="9" name="IN_1_DATA">
+      <node ref="U1" pin="3"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="11" name="Net-(J7-Pad3)">
+      <node ref="J7" pin="3"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="12" name="Net-(J7-Pad4)">
+      <node ref="U1" pin="12"/>
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="13" name="OUT_1_CLK">
+      <node ref="U1" pin="20"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="14" name="OUT_1_DATA">
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="15" name="OUT_2_CLK">
+      <node ref="U1" pin="17"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="16" name="OUT_2_DATA">
+      <node ref="J4" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="17" name="Net-(J4-PadSS1)">
+      <node ref="J4" pin="SS1"/>
+    </net>
+    <net code="18" name="Net-(J4-PadSS2)">
+      <node ref="J4" pin="SS2"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="J8" pin="S4"/>
+      <node ref="J8" pin="S3"/>
+      <node ref="J8" pin="S2"/>
+      <node ref="J8" pin="S1"/>
+      <node ref="J8" pin="5"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J8" pin="S5"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="11"/>
+      <node ref="J8" pin="S6"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="20" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="21" name="+3V3">
+      <node ref="J5" pin="3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="22" name="Net-(J8-Pad2)">
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="23" name="Net-(J8-Pad3)">
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="24" name="Net-(J8-Pad4)">
+      <node ref="J8" pin="4"/>
+    </net>
+    <net code="25" name="Net-(J1-PadSS2)">
+      <node ref="J1" pin="SS2"/>
+    </net>
+    <net code="26" name="Net-(J1-PadSS1)">
+      <node ref="J1" pin="SS1"/>
+    </net>
+    <net code="27" name="Net-(J2-PadSS2)">
+      <node ref="J2" pin="SS2"/>
+    </net>
+    <net code="28" name="Net-(J2-PadSS1)">
+      <node ref="J2" pin="SS1"/>
+    </net>
+    <net code="29" name="Net-(J3-PadSS2)">
+      <node ref="J3" pin="SS2"/>
+    </net>
+    <net code="30" name="Net-(J3-PadSS1)">
+      <node ref="J3" pin="SS1"/>
+    </net>
+    <net code="31" name="+5V">
+      <node ref="J4" pin="3"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J9" pin="1"/>
+      <node ref="U1" pin="19"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+  </nets>
+</export>
